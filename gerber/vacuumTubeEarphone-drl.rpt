@@ -1,0 +1,32 @@
+Drill report for E:\GoogleDrive\kicad\真空管耳擴_HA-01B\vacuumTubeEarphone\vacuumTubeEarphone.kicad_pcb
+Created on 2017/9/1 下午 02:50:56
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'vacuumTubeEarphone.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.50mm  0.020"  (32 holes)
+    T2  0.81mm  0.032"  (6 holes)
+    T3  1.00mm  0.039"  (31 holes)  (with 3 slots)
+    T4  1.00mm  0.039"  (14 holes)
+    T5  1.02mm  0.040"  (18 holes)  (with 18 slots)
+    T6  1.14mm  0.045"  (18 holes)
+    T7  1.20mm  0.047"  (8 holes)
+    T8  1.30mm  0.051"  (6 holes)
+    T9  1.50mm  0.059"  (12 holes)
+    T10  3.10mm  0.122"  (2 holes)
+    T11  3.20mm  0.126"  (4 holes)
+
+    Total plated holes count 151
+
+
+Drill file 'vacuumTubeEarphone-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
