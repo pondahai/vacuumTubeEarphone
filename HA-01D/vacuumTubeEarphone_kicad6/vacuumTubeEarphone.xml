@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Volumes/ADATA SD/google drive/kicad/真空管耳擴_HA-01D/vacuumTubeEarphone/vacuumTubeEarphone.sch</source>
+    <date>Thursday, 12 July 2018 'amt' 11:19:20</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>VacuumTubeEarphoneAmp</title>
+        <company>DaHai</company>
+        <rev>D</rev>
+        <date>2018-06-11</date>
+        <source>vacuumTubeEarphone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>12AU7</value>
+      <footprint>Valves:VALVE-ECC-83-2</footprint>
+      <libsource lib="valves" part="ECC83"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57996D4E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579970BB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.47u/100V</value>
+      <footprint>Capacitors_THT:C_Disc_D16.0mm_W5.0mm_P10.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579970EB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579973E6</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10ohm/5W</value>
+      <footprint>Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57997446</tstamp>
+    </comp>
+    <comp ref="VR3">
+      <value>50k</value>
+      <footprint>Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="POT_ANSI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799772D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.47u/100V</value>
+      <footprint>Capacitors_THT:C_Disc_D16.0mm_W5.0mm_P10.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57997CA2</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10ohm/5W</value>
+      <footprint>Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57997FDE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM317_TO220</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="LM317_SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799802B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF530</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="vacuumTubeEarphone-rescue" part="IRF540N-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579981D1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100u/100V</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799829C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100u/100V</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998363</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>120</value>
+      <footprint>Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579983B3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>120</value>
+      <footprint>Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579983FF</tstamp>
+    </comp>
+    <comp ref="VR4">
+      <value>50k</value>
+      <footprint>Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="POT_ANSI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998607</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF530</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="vacuumTubeEarphone-rescue" part="IRF540N-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579987AE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM317_TO220</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="LM317_SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799881C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470u/35V</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799888A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>470u/35V</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998915</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998AE9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998B59</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>15VDC Adapter</value>
+      <footprint>Connectors:BARREL_JACK</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998D8A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47u/100V</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998EB7</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u/250V</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57998F3F</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM317_TO220</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="LM317_SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799902C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>8ohm/5,6ohm/5W</value>
+      <footprint>Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57999129</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JACK_TRS_6PINS</value>
+      <footprint>Connectors:PINHEAD1-6</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="JACK_TRS_6PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57999630</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>JACK_TRS_6PINS</value>
+      <footprint>Connectors:PINHEAD1-6</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="JACK_TRS_6PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579996BF</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST_1P</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1mmDrill</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799F588</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST_1P</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1mmDrill</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5799F62A</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>10k</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK163_Double_Vertical</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="DUAL_POT_ANSI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5948D151</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>HEATSINK</value>
+      <footprint>Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="HEATSINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59490361</tstamp>
+    </comp>
+    <comp ref="HS2">
+      <value>HEATSINK</value>
+      <footprint>Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="HEATSINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594904B7</tstamp>
+    </comp>
+    <comp ref="HS3">
+      <value>HEATSINK</value>
+      <footprint>Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="HEATSINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5949053F</tstamp>
+    </comp>
+    <comp ref="HS4">
+      <value>HEATSINK</value>
+      <footprint>Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="HEATSINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594905C4</tstamp>
+    </comp>
+    <comp ref="HS5">
+      <value>HEATSINK</value>
+      <footprint>Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="HEATSINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5949064C</tstamp>
+    </comp>
+    <comp ref="HS6">
+      <value>HEATSINK</value>
+      <footprint>Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="HEATSINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5949097F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MECHANICAL_HOLE</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59490A0F</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MECHANICAL_HOLE</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59490AB6</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MECHANICAL_HOLE</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59490B51</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MECHANICAL_HOLE</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59490BE9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>JACK_TRS_5PINS</value>
+      <footprint>JACK_TRS_5PINS</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="JACK_TRS_5PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A3420</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>SW_SPDT_90</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A45B2</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>JACK_TRS_5PINS</value>
+      <footprint>JACK_TRS_5PINS</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="JACK_TRS_5PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3CAFD7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>8ohm/5,6ohm/5W</value>
+      <footprint>Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm</footprint>
+      <libsource lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3FD309</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5819</value>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1DEE9A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819</value>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1DF007</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SHORT</value>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1DF0E7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SHORT</value>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1DF1A9</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM317_SOT223</value>
+      <libsource lib="vacuumTubeEarphone-cache" part="LM317_SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B477AF6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k7</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B47901E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>330</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B479194</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>A684</value>
+      <libsource lib="device" part="Q_PNP_ECB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B47997F</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>47k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B47A173</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4002</value>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B47A36F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="vacuumTubeEarphone-cache" part="BARREL_JACK">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="DUAL_POT_ANSI">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">DUAL_POT_ANSI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_ALT">
+      <description>Diode, alternativ symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="valves" part="ECC81">
+      <aliases>
+        <alias>ECC83</alias>
+      </aliases>
+      <description>double triode</description>
+      <docs>http://www.r-type.org/pdfs/ecc81.pdf</docs>
+      <footprints>
+        <fp>VALVE*NOVAL*P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECC81</field>
+        <field name="Footprint">Valves:VALVE-NOVAL_P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="output"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="K" type="BiDi"/>
+        <pin num="4" name="F1" type="power_in"/>
+        <pin num="5" name="F1" type="power_in"/>
+        <pin num="6" name="A" type="output"/>
+        <pin num="7" name="G" type="input"/>
+        <pin num="8" name="K" type="BiDi"/>
+        <pin num="9" name="F2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="HEATSINK">
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">HEATSINK</field>
+      </fields>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-rescue" part="IRF540N-RESCUE-vacuumTubeEarphone">
+      <footprints>
+        <fp>TO-220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N-RESCUE-vacuumTubeEarphone</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="JACK_TRS_5PINS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_TRS_5PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="R" type="passive"/>
+        <pin num="3" name="RN" type="passive"/>
+        <pin num="4" name="TN" type="passive"/>
+        <pin num="5" name="T" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="JACK_TRS_6PINS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_TRS_6PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="T" type="passive"/>
+        <pin num="3" name="R" type="passive"/>
+        <pin num="4" name="SN" type="passive"/>
+        <pin num="5" name="TN" type="passive"/>
+        <pin num="6" name="RN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="LM317_SOT223">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_SOT223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="POT_ANSI">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">POT_ANSI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PNP_ECB">
+      <description>Transistor PNP (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_ECB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vacuumTubeEarphone-cache" part="R_ANSI-RESCUE-vacuumTubeEarphone">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_ANSI-RESCUE-vacuumTubeEarphone</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="vacuumTubeEarphone-rescue">
+      <uri>/Volumes/ADATA SD/google drive/kicad/真空管耳擴_HA-01D/vacuumTubeEarphone/vacuumTubeEarphone-rescue.lib</uri>
+    </library>
+    <library logical="valves">
+      <uri>/Library/Application Support/kicad/library/valves.lib</uri>
+    </library>
+    <library logical="vacuumTubeEarphone-cache">
+      <uri>/Volumes/ADATA SD/google drive/kicad/真空管耳擴_HA-01D/vacuumTubeEarphone/vacuumTubeEarphone-cache.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/Library/Application Support/kicad/library/switches.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad2)">
+      <node ref="VR1" pin="5"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="VR1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(CON1-Pad2)">
+      <node ref="CON1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="VR1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="VR1" pin="6"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="7" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad1)">
+      <node ref="Q2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="13" name="+12V">
+      <node ref="VR4" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="VR3" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C8-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="17" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="18" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="20" name="Net-(CON1-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="22" name="GNDREF">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="VR1" pin="4"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C5-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(CON1-Pad3)">
+      <node ref="CON1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="28" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="30" name="Net-(C5-Pad2)">
+      <node ref="J2" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C6-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="35" name="Net-(SW1-Pad3)">
+      <node ref="U5" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="37" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="38" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="39" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="40" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C6-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="42" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="43" name="Net-(Q2-Pad1)">
+      <node ref="TP2" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="VR4" pin="2"/>
+      <node ref="VR4" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(Q1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="VR3" pin="1"/>
+      <node ref="VR3" pin="2"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+  </nets>
+</export>

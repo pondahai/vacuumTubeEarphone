@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name vacuumTubeEarphone-rescue)(type Legacy)(uri ${KIPRJMOD}/vacuumTubeEarphone-rescue.lib)(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri ${KIPRJMOD}/New_Library.lib)(options "")(descr ""))
+  (lib (name local_device)(type Legacy)(uri ${KIPRJMOD}/local_device.lib)(options "")(descr ""))
+)
